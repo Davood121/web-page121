@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Dawood's Webpage</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dawood's Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content" id="home">
+        <h2>Home</h2>
+        <p>This is a simple webpage created for Dawood. It demonstrates the basic structure of an HTML document with some simple styling.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+    
+    <section class="content" id="about">
+        <h2>About</h2>
+        <p>Dawood is a passionate learner, currently pursuing Mechanical Engineering. He loves technology, AI, and web development.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+    
+    <section class="content" id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with Dawood, feel free to reach out via email at <a href="mailto:shaik.davood121@gmail.com">shaik.davood121@gmail.com</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Dawood's Webpage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
